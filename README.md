@@ -41,3 +41,37 @@ Logistic Regression performed better on test data.
 
 Confusion Matrix (Logistic Regression):
 
+- 915 customers correctly predicted as non-churn
+- 228 customers correctly predicted as churn
+- 81% overall accuracy
+
+---
+
+## 💡 Key Business Insights
+
+- Customers with month-to-month contracts have higher churn rate.
+- Higher monthly charges increase churn probability.
+- Customers with shorter tenure are more likely to churn.
+
+This model helps telecom companies identify at-risk customers and improve retention strategies.
+
+---
+
+## 🌐 Streamlit Web Application
+
+The project includes an interactive web app built using Streamlit.
+
+Features:
+- User input for customer details
+- Real-time churn prediction
+- Churn probability percentage display
+
+---
+
+## 🛠️ Tech Stack
+
+- Python
+- Pandas
+- Scikit-learn
+- Streamlit
+- Joblib
